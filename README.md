@@ -1,7 +1,8 @@
 # KVOArray
 a common kvo array
 
-//example code
+```
+example code
 KVOArray *newArr1 = [[KVOArray alloc] initWithBlock:^(){
 NSLog(@"my block1");
 }];
@@ -15,3 +16,5 @@ NSLog(@"my block2");
 }];
 [newArr2 add:dic];
 [newArr2 remove:dic];
+
+```
