@@ -2,7 +2,8 @@
 a common kvo array
 
 ```
-example code
+//example code
+
 KVOArray *newArr1 = [[KVOArray alloc] initWithBlock:^(){
 NSLog(@"my block1");
 }];
